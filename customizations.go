@@ -16,6 +16,3 @@ func (m *Message) SetAddressListHeader(field string, list []Address) {
 
 	m.header[field] = val
 }
-
-// Flag to turn ExportBcc on / off
-var ExportBcc = false
